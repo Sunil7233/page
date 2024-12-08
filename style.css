@@ -273,7 +273,6 @@ footer .source{
     header .left h1,
     h2.separator{
         padding: 0 40px;
-        font-size: 30px;
         
     }
     header .left h1{
@@ -289,6 +288,10 @@ footer .source{
         width: 200px;
     }
 
+    .support-cours .item .header i{
+        font-size: 30px;
+    }
+
 }
 @media  screen and (max-width: 680px) {
    header{
@@ -297,10 +300,23 @@ footer .source{
    }
 
    .support-cours .item{
-    width: 179px;
+    width: 160px;
    }
 
    .support-cours{
-    padding: 0 40px;
+    padding: 0 15px;
+    margin: 0px;
+   }
+
+   .support-cours .item .header h5{
+    font-size: 19px;
+   }
+
+   .support-cours .item p{
+    font-size: 14px;
+   }
+
+   .support-cours .item .header i{
+    font-size: 25px;
    }
 }
