@@ -47,7 +47,7 @@ header{
     height: calc(100vh - 80px);
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content:space-evenly;
 }
 
 header .left{
@@ -56,9 +56,10 @@ header .left{
 
 header .left h1{
     font-size: 70px;
-    margin-top: -100px;
+    margin-top: 0px;
     text-align: left;
     color: #fff;
+    max-width: 400px;
 }
 
 header img{
@@ -68,7 +69,7 @@ header img{
 
 h2.separator{
     padding: 0 80px;
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 40px;
     color: #fff;
 }
@@ -90,7 +91,7 @@ h2.separator{
     border-radius: 18px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
-    width: 200px;
+    width: 350px;
     
 }
 
@@ -108,15 +109,16 @@ h2.separator{
 }
 
 .support-cours .item .header i{
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .support-cours .item .header h5{
-    font-size: 17px;
+    font-size: 30px;
     text-align: center;
 }
 
 .support-cours .item p{
+    font-size: 20px;
     text-align: center;
     margin-top: 10px;
     padding: 0 4px;
@@ -147,7 +149,7 @@ h2.separator{
 }
 
 .act-list .item .info h5{
-    font-size: 25px;
+    font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -212,44 +214,93 @@ footer .source{
     font-size: 25px;
 }
 
-@media  screen and (max-width: 834px) {
-    .support-cours,
-    .act-list{
-        justify-content: center;
-    }
-}
+
 
 @media  screen and (max-width: 900px) {
     header .left h1{
         font-size: 60px;
     }
+
+    header{
+        justify-content: center;
+    }
+    .support-cours .item{
+        width: 300px;
+    }
+
+    .support-cours .item .header i{
+        font-size: 50px;
+    }  
+
+    .support-cours .item .header h5{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    h2.separator{
+        font-size: 45px;
+    } 
+}
+
+@media  screen and (max-width: 834px) {
+    .support-cours,
+    .act-list{
+        justify-content: center;
+    }
+
+    nav .barre{
+        font-size: 20px;
+    }
+    
+    .support-cours .item{
+        width: 250px;
+    }
+
+    .support-cours .item .header i{
+        font-size: 40px;
+    }
+
+    .support-cours .item .header h5{
+        font-size: 20px;
+    }
+
+    h2.separator{
+        font-size: 40px;
+    } 
 }
 
 @media  screen and (max-width: 750px) {
     header .left h1,
     h2.separator{
         padding: 0 40px;
+        font-size: 30px;
         
     }
     header .left h1{
         text-align: center;
-    }
-    h2.separator{
-     font-size: 30px;
     }   
 
-    .act-list .item img{
-        width: 280px;
-    }
     header{
         flex-wrap: wrap;
         margin-top: 50px;
-       }
+    }
+
+    .support-cours .item{
+        width: 200px;
+    }
 
 }
 @media  screen and (max-width: 680px) {
    header{
     flex-wrap: wrap;
     margin-top: 50px;
+   }
+
+   .support-cours .item{
+    width: 179px;
+   }
+
+   .support-cours{
+    padding: 0 40px;
    }
 }
