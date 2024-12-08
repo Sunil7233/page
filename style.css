@@ -218,7 +218,7 @@ footer .source{
 
 @media  screen and (max-width: 900px) {
     header .left h1{
-        font-size: 60px;
+        font-size: 53px;
     }
 
     header{
@@ -265,7 +265,7 @@ footer .source{
     }
 
     h2.separator{
-        font-size: 40px;
+        font-size: 30px;
     } 
 }
 
@@ -300,16 +300,15 @@ footer .source{
    }
 
    .support-cours .item{
-    width: 160px;
+    width: 170px;
    }
 
    .support-cours{
-    padding: 0 15px;
-    margin: 0px;
+    padding: 0 10px;
    }
 
    .support-cours .item .header h5{
-    font-size: 19px;
+    font-size: 18.5px;
    }
 
    .support-cours .item p{
